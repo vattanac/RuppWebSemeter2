@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GreenBox</title>
+
+    <link rel="icon" href="../Resourse/webicon.png">
+    <!-- <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/homeStyle.css">
+    <script src="../JS/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="../CSS/homeStyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-md navbar-white fixed-top bg-light">
+            <img src="../Resourse/logo.svg" alt="image logo" class="mr-5">
+
+            <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active ml-5">
+                        <button class="btn btn-primary mt-2" type="submit">Ask Question</button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="../Resourse/goal.png" alt="image" style="height:40px;">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">
+                            <img src="../Resourse/notification.png" alt="image" style="height:40px;">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">
+                            <img src="../Resourse/profile-pic.jpg" alt="image" style="height:40px;width: 40px;;border-radius: 50%;">
+                            <label> Vattanac Sim</label>
+                        </a>
+
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <!--End NavBar -->
+        <div class="row mx-5">
+
+            <!-- Card Info -->
+            <div class="col-8" style="background-color: blueviolet;height: 300px;">
+
+                <!--DropDown-->
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Dropdown button
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+
+                <div class="card mt-5" style="width: 800px;">
+                    <div class="card-body">
+                       <div class="row">
+                            <div class="col-3 d-flex justify-content-center"  style="background-color: rgb(43, 226, 165);">
+                                  <div class="col">
+                                        <img src="../Resourse/profile-pic.jpg" style="width:100%;height:140px;border-radius: 50%" alt="">
+                                        <label for="" class="text-xs-center">Vattanac</label>
+                                  </div>
+                                     
+                            </div>
+                            <div class="col-9" style="background-color: rgb(177, 226, 43);">
+                                <div class="col">
+                                    <div class="row">
+                                            <h3>Title</h3>
+                                            <img src="../Resourse/profile-pic.jpg" style="width:30px;height:30px;" alt="">
+                                           
+                                    </div>
+                                </div>
+                                   <label for="">1 minute ago</label>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta nesciunt reprehenderit ipsam non ea corporis quaerat ut aliquid? Sequi facere qui repudiandae necessitatibus a expedita voluptate facilis sapiente distinctio nobis!</p>
+                                    <div>
+                                            <img src="../Resourse/profile-pic.jpg" style="width:30px;height:30px;border-radius: 50%" alt="">38 answers
+                                            <img src="../Resourse/profile-pic.jpg" style="width:30px;height:30px;border-radius: 50%" alt="">100k comments
+                                            <img src="../Resourse/profile-pic.jpg" style="width:30px;height:30px;border-radius: 50%" alt="">8.7k views
+                                            <img src="../Resourse/profile-pic.jpg" style="width:30px;height:30px;border-radius: 50%" alt="">100 votes
+                                    </div>
+                            </div>
+                           
+                       </div>
+                      
+                    </div>
+                </div>
+
+            </div>
+            <!-- End Card Info -->
+
+            <!-- communicate Event and Anoundsement  -->
+            <div class="col-4" style="background-color: rgb(226, 43, 150);color: white">
+
+            </div>
+            <!--End communicate Event and Anoundsement  -->
+        </div>
+
+    </div>
+</body>
+
+</html>
